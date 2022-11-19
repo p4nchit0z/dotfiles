@@ -242,6 +242,7 @@ local config = {
       -- },
       "EdenEast/nightfox.nvim",
     },
+    -- Explicitly showing current Vim Mode
     heirline = function(config)
       -- the first element of the default configuration table is the statusline
       config[1] = {
